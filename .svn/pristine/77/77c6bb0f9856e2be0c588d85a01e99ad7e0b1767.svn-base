@@ -1,0 +1,20 @@
+
+<!-- <div style="position: sticky; left:0"> -->
+
+        <ul class="sidenav-nav" [ngClass]="{'nav-list-open': sideNavStatus}">
+            <li class="sidenav-nav-item" *ngFor="let data of navData">
+                <a href="" class="sidenav-nav-link" [routerLink]="[data.routerLink]"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{exact : true}"
+                >
+                    <i class="sidenav-link-icon"[class]="data.icon"></i>
+                    <span class="sidenav-link-text">{{data.label}}</span>
+                    
+                </a>
+            </li>
+        </ul>
+  
+<!-- </div> -->
+  
+
+

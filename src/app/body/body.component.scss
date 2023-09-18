@@ -1,0 +1,62 @@
+// app-header {
+//   position: fixed;
+//   width: 100%;
+//   top: 0px;
+//   // height:4rem;
+//   // z-index:2;
+// }
+
+main {
+  position: absolute;
+  width: 100%;
+  top: 4rem;
+  z-index: 1;
+}
+
+// app-sidenav{
+//     position:absolute;
+//     left:0rem;
+//     width:70px;
+//    height:calc(100vh - 4rem);
+//    background: #222222ff;
+//    box-shadow:0.063rem 0 1.25rem 0 #8690a3;
+//    overflow-x: hidden;
+//    white-space: no-wrap;
+//    transition: all .5s ease;
+// }
+
+.display-area {
+  position: absolute !important;
+  margin-left: 15rem;
+  width: calc(100% - 15rem);
+  transition: all 0.4s ease;
+}
+// .display-area-shrink {
+//   width: calc(100% - 17rem);
+//   left: 170px;
+// }
+// .app-side-nav-open{
+//     width:170px;
+// }
+
+//Anuj
+
+app-header {
+  position: sticky;
+  top: 0;
+}
+
+app-sidenav {
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  width: 15rem;
+  height: 100%;
+  overflow-x: hidden;
+  transition: all 0.4s;
+  white-space: nowrap;
+  background-color: #232323;
+  border-right: #393d46 1px solid;
+  border-top: #393d46 1px solid;
+  /* Add any other side navigation styles here */
+}

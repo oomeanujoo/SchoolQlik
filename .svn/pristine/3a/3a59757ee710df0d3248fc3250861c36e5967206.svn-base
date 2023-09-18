@@ -1,0 +1,30 @@
+// .active-header-1{
+//     background-color: white;
+//  }
+ // .active-header-2{
+ //     border:1px solid black;
+ // }
+ // .active-header-3{
+ //     border:1px solid black;
+ // }
+ // .active-header-4{
+ //     border:1px solid black;
+ // }
+ .active-header-1:hover{
+     background: #fcd54bff;
+     display: inline-block;
+     cursor: pointer;
+ }
+ .border-header{
+     border:1px solid black;
+ 
+ }
+ .active-header-1 h3{
+     font-size: 17px;
+     font-weight: 600;
+     color:#494949ff;
+ }
+
+ .active-button{
+    background-color:#fcd54bff;
+ }

@@ -1,0 +1,34 @@
+export const navbarData=[
+    {
+        routerLink:'tracking',
+        icon:'fas fa-qrcode',
+        label:'Dashboard',
+    },
+    {
+        routerLink:'routes',
+        icon:'fa-solid fa-route',
+        label:'Routes',
+    },
+    {
+        routerLink:'reports',
+        icon:'fa-solid fa-sheet-plastic',
+        label:'Reports',
+    },
+    {
+        routerLink:'vehicles',
+        icon:'fa-solid fa-bus',
+        label:'Vehicles',
+    },
+    {
+        routerLink:'utilties',
+        icon:'fa-solid fa-screwdriver-wrench',
+        label:'Utilities',
+    },
+    {
+        routerLink:'student',
+        icon:'fa-solid fa-table',
+        label:'Master',
+    },
+  
+
+];

@@ -1,0 +1,54 @@
+<!-- <div style="position: sticky; left:0"> -->
+<div #sidebar class="side-nav-content m-2 pt-2 justify-content-start">
+  <ul class="nav-list p-0 m-0">
+    <li
+      [routerLink]="[data.routerLink]"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="mx-3 nav-list-item"
+      *ngFor="let data of navData"
+    >
+      <i class="sidenav-link-icon" [class]="data.icon"></i>
+
+      <a class="sidenav-nav-link">
+        <span class="sidenav-link-text fs-5">{{ data.label }}</span>
+      </a>
+    </li>
+    <!-- <li
+      [routerLink]="['/student']"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="mx-3 nav-list-item"
+    >
+      <i class="bx bx-table"></i>
+
+      <a class="sidenav-nav-link me-2">
+        <span class="sidenav-link-text fs-5">Master</span>
+      </a>
+      <i
+        [ngClass]="subMenuStatus == false ? 'bxs-down-arrow' : 'bxs-up-arrow'"
+        class="bx"
+        style="font-size: 10px"
+      ></i>
+    </li> -->
+  </ul>
+  <div class="circle-card-container justify-content-end my-5">
+    <div class="circle-container">
+      <img
+        src="/assets/img/pngtree-school-logo-design-template-vector-png-image_6705854.png"
+        class="img-fit"
+        alt="Chris Wood"
+      />
+    </div>
+    <div class="card p-3">
+      <div class="card-body px-0 mt-2">
+        <div class="fs-6 fw-medium">Creative Education Group</div>
+        <p class="mb-0 fs-6">Your subscription ends in 15 days.</p>
+      </div>
+
+      <button class="btn btn-primary fw-bold">Subscribe</button>
+    </div>
+  </div>
+
+  <!-- </div> -->
+</div>

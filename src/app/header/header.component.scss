@@ -1,0 +1,52 @@
+// .logo{
+//     background: #373737ff;
+//     text-align: center;
+//     width: 3rem;
+//     min-width: 3rem;
+//     border-radius:0.313rem;
+//     // border:1px solid white;
+//     padding: 0.313rem;
+//     font-size: 22px;
+//     font-weight: 900;
+//     cursor: pointer;
+//     border:none;
+//  }
+// .nav {
+//   height: 100%;
+// }
+
+.div-left {
+  width: 50%;
+  //   background-color: brown;
+}
+.div-right {
+  width: 50%;
+  //   background-color: blue;
+}
+
+.logo img {
+  width: 20%;
+  padding-block: 0.5rem;
+}
+
+.navbar {
+  background-color: #232323;
+}
+
+.rounded-circle-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Creates a rounded circle */
+
+  /* Center the image horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure that the image does not overflow the circular container */
+}
+
+.img-fit {
+  width: 100%; /* Make the image cover the container's width */
+  height: 100%; /* Make the image cover the container's height */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}

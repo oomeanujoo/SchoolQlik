@@ -1,0 +1,39 @@
+.nav-list {
+  width: 25%;
+  //   border-right: #eee 1px solid;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.navbar {
+  height: 3rem;
+  border-bottom: #eee 1px solid;
+}
+
+.nav-list-item i {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.nav-list-item a span {
+  font-size: medium;
+}
+
+.nav-list-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 35px;
+  padding-inline: 1rem;
+
+}
+
+.nav-list-item:hover {
+  background-color: rgb(252, 213, 75, 0.8);
+  border-radius: 0.25rem;
+}
+
+

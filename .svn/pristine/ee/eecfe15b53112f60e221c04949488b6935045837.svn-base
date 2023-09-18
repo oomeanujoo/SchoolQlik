@@ -1,0 +1,35 @@
+
+    <app-tracking></app-tracking>
+
+
+<!-- <div class="container-fluid">
+    <div class="row border border-black text-center justify-content-center">
+        <div class="col-sm-3 col-3 active-header-1 border border-black pt-1"> 
+            <a href="" class="submenus" routerLink="/tracking"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact : true}"
+            ><h3>Tracking</h3></a>
+        </div>
+        <div class="col-sm-3 col-3 active-header-1 border border-black pt-1">
+            <a href="" class="submenus" routerLink="/schedules"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact : true}"
+            ><h3>Schedules</h3></a>
+        </div>
+        <div class="col-sm-3 col-3 active-header-1 border border-black pt-1">
+            <a href="" class="submenus" routerLink="/routes"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact : true}"
+            ><h3>Routes</h3>
+        </a>
+        </div>
+        <div class="col-sm-3 col-3 active-header-1 border border-black pt-1">
+            <a href="" class="submenus" routerLink="/trips"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact : true}"
+            ><h3>Trips</h3>
+        </a>
+            </div>
+    </div>
+</div> -->
+   

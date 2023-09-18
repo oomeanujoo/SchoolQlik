@@ -1,0 +1,16 @@
+.logo{
+    background: #373737ff;
+    text-align: center;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius:0.313rem;
+    // border:1px solid white;
+    padding: 0.313rem;
+    font-size: 22px;
+    font-weight: 900;
+    cursor: pointer;
+    border:none;
+ }
+//  .nav{
+//    height: 100%;
+//  }

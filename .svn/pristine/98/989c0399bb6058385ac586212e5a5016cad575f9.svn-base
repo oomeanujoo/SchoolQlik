@@ -1,0 +1,41 @@
+app-header{
+    position:fixed;
+    width:100%;
+    top:0px;
+    height:4rem;
+    z-index:2;
+}
+
+main{
+    position:absolute;
+    width: 100%;
+    top:4rem;
+    z-index:1;
+}
+
+app-sidenav{
+    position:absolute;
+    left:0rem;
+    width:70px;
+   height:calc(100vh - 4rem);
+   background: #222222ff;
+   box-shadow:0.063rem 0 1.25rem 0 #8690a3;
+   overflow-x: hidden;
+   white-space: no-wrap;
+   transition: all .5s ease;
+}
+
+.display-area{
+    position:absolute;
+    left: 70px;
+    width:calc(100% - 70px);
+    transition: all .5s ease;
+}
+.display-area-shrink{
+    width:calc(100% - 170px); 
+    left:170px;
+}
+.app-side-nav-open{
+    width:170px;
+}
+

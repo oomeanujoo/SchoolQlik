@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+<div class="side-nav-button p-2 ms-3 me-3 px-2 border border-white logo" (click)="sidenavtoggle()">
+    <i class="fa-solid fa-bars-staggered" style="color: #ffffff; font-size: 19px;"></i>
+</div>
+
+<a href="" class="navbar-brand px-3">
+    <img src="../../assets/img/log-app-main.png" alt="" height="30px" width="">
+</a>
+<!-- <div class="profile-logo dropstart">
+    <button class="btn btn-outline dropdown-menu-dark">
+        Abhinav
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a href="" class="dropdown-item">Log Out</a></li>
+    </ul>
+</div> -->
+
+</nav>

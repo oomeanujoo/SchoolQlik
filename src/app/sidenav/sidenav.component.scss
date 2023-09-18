@@ -1,0 +1,172 @@
+// .sidenav{
+//     height:100vh;
+// }
+// .sidenav-nav{
+//     list-style:none;
+//     padding:0.938rem;
+//     margin:0;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     // height: calc(100vh);
+//     height:calc(100% - 3.65rem);
+//     cursor:pointer;
+
+//     .sidenav-nav-item{
+//         width:100%;
+//         margin-bottom: 0.625rem;
+
+//         .sidenav-nav-link{
+//             display: flex;
+//             align-items: center;
+//             height: 3rem;
+//             color: #f3f3f3;
+//             text-decoration: none;
+//             border-radius: 0.625rem;
+//             transition: all .3s ease;
+
+//             .sidenav-link-icon{
+//                 font-size: 22px;
+//                 width:2rem;
+//                 min-width: 2rem;
+//                 margin: 0 0.5rem;
+//                 //  margin:0 1rem;
+//                 text-align: center;
+
+//             }
+
+//             .sidenav-link-text{
+//                 margin-left: 1.5rem;
+//                 font-weight:600 ;
+
+//             }
+//         }
+//     }
+//     .sidenav-nav-item:hover{
+//         .sidenav-nav-link{
+//             background-color: #fcd54bff;
+//             color:#000;
+//         }
+//     }
+// }
+
+.nav-list-item {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list-item i {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  //   height: 25px;
+  width: 25px;
+  //   line-height: 25px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 25px;
+  color: white;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500 !important;
+}
+
+.nav-list-item:hover {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: rgba(239, 239, 239, 0.1);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: #fcd54b;
+  height: 2 0px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style for active links */
+.nav-list-item.active {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: #fcd54b;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style for active icon */
+.nav-list-item.active .sidenav-link-icon,
+nav-list-item.active i {
+  color: #232323; /* Change to your desired icon color */
+}
+
+/* Style for active text */
+.nav-list-item.active .sidenav-link-text {
+  color: #232323;
+  font-weight: bold; /* Change to your desired text color */
+}
+
+.card {
+  overflow: hidden;
+  white-space: normal;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    224deg,
+    rgba(252, 213, 75, 0.15) 0%,
+    rgba(255, 205, 28, 0.03) 100%
+  );
+  color: white;
+  text-align: center;
+  z-index: 1; /* Set a higher z-index than the circle */
+}
+
+.circle-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative; /* Add relative positioning */
+  margin-top: 3rem;
+}
+
+.circle-container {
+  width: 50px;
+  height: 50px;
+  // padding: 21px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 170.833px;
+  background: #fcd54b;
+  position: absolute; /* Add absolute positioning */
+  top: -24px; /* Adjust the top position to overlap */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 2; /* Set a higher z-index to place it above the card */
+  overflow: hidden;
+}
+
+.img-fit {
+  width: 100%; /* Make the image cover the container's width */
+  height: 100%; /* Make the image cover the container's height */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+.btn-primary {
+  background-color: #fcd54b;
+  border: 0;
+  color: #232323;
+}
